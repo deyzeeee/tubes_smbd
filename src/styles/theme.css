@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+  --color-primary: #FF7A00;
+  --color-primary-hover: #E06C00;
+  --color-secondary: #EAF7EB;
+  --color-secondary-text: #22A031;
+  --color-accent-beige: #F5EFE6;
+  --color-accent-cream: #FFFBF4;
+  --color-bg-base: #F7F5F2;
+  --color-surface: #FFFFFF;
+  --color-text-main: #1A1A1A;
+  --color-text-muted: #666666;
+  --color-border-subtle: #EBEBEB;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg-base);
+  color: var(--color-text-main);
+}
